@@ -8,8 +8,6 @@ Body {
 ul {
   padding: 0px;
   list-style: none;
-  gap: 40px;
-  display: flex;
 }
 
 a {
