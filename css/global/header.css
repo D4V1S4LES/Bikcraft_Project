@@ -8,14 +8,10 @@
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-
-  box-sizing: border-box;
-  padding: 20px;
-  max-width: 1200px;
+  
   gap: 20px;
-
-  margin-left: auto;
-  margin-right: auto;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 
 

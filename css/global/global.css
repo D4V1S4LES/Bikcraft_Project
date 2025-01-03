@@ -8,6 +8,8 @@ Body {
 ul {
   padding: 0px;
   list-style: none;
+  gap: 40px;
+  display: flex;
 }
 
 a {
@@ -15,7 +17,12 @@ a {
   color: inherit;
 }
 
-h1, ul, p {
+h1,
+h2,
+h3,
+h4,
+ul,
+p {
   margin: 0px;
 }
 
@@ -24,8 +31,7 @@ img {
   max-width: 100%;
 }
 
-ul {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 40px;
-}
+/* Colocando o estilo apenas em elementos src que terminam com .jpg */
+img[src$=".jpg"] {
+  border-radius: 4px;
+} 
